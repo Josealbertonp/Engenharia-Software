@@ -10,7 +10,7 @@ No exemplo do Princípio da Responsabilidade Única (SRP), crio um sistema de pr
 
 - **Incorreto:** No exemplo incorreto, a classe `ProcessadorDePagamentoIncorreto` mistura validação dentro do método `processarPagamento`, violando o SRP.
 
-[Exemplo Correto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/SRP/srpCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/SRP/srpIncorreto.js)
+[Exemplo Correto](https://github.com/Joseal19/Engenharia-Software/blob/main/SRP/srpCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-Software/blob/main/SRP/srpIncorreto.js)
 
 ## Princípio da Substituição de Liskov (LSP)
 
@@ -20,7 +20,7 @@ No exemplo do Princípio da Substituição de Liskov (LSP), crio um sistema de c
 
 - **Incorreto:** No exemplo incorreto, a classe `QuadradoIncorreto` herda da classe `RetanguloIncorreto`, violando o LSP.
 
-[Exemplo Correto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/LSP/lspCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/LSP/lspIncorreto.js)
+[Exemplo Correto](https://github.com/Joseal19/Engenharia-Software/blob/main/LSP/lspCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-Software/blob/main/LSP/lspIncorreto.js)
 
 ## Princípio da Segregação de Interface (ISP)
 
@@ -30,7 +30,7 @@ No exemplo do Princípio da Segregação de Interface (ISP), crio um sistema que
 
 - **Incorreto:** No exemplo incorreto, a classe `MultifuncionalIncorreto` tem métodos que não são relevantes para todas as suas instâncias.
 
-[Exemplo Correto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/ISP/ispCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/ISP/ispIncorreto.js)
+[Exemplo Correto](https://github.com/Joseal19/Engenharia-Software/blob/main/ISP/ispCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-Software/blob/main/ISP/ispIncorreto.js)
 
 ## Princípio da Inversão de Dependência (DIP)
 
@@ -40,5 +40,5 @@ No exemplo do Princípio da Inversão de Dependência (DIP), crio um sistema de 
 
 - **Incorreto:** No exemplo incorreto, a classe `ProcessadorDeDadosIncorreto` depende diretamente das implementações específicas `BancoDeDados` e `GerenciadorDeArquivos`.
 
-[Exemplo Correto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/DIP/dipCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-De-Software/blob/main/DIP/dipIncorreto.js)
+[Exemplo Correto](https://github.com/Joseal19/Engenharia-Software/blob/main/DIP/dipCorreto.js) | [Exemplo Incorreto](https://github.com/Joseal19/Engenharia-Software/blob/main/DIP/dipIncorreto.js)
 
